@@ -9,11 +9,15 @@ Gavin James Wood is an English computer scientist, a co-founder of Ethereum.
 
 While Solidity is the most widely used language for creating smart contracts on the Ethereum network, there are other alternatives available as well:
 
-Vyper: A Python-inspired language designed for writing Ethereum smart contracts. It emphasizes readability and simplicity.
+**Vyper:**
+
+ A Python-inspired language designed for writing Ethereum smart contracts. It emphasizes readability and simplicity.
 
  disadvantages including less maturity compared to Solidity, leading to fewer available resources and tools. Its performance might be lower due to its design, and it lacks certain features like Turing-completeness and full formal verification support. Also, since Vyper is less popular, there are fewer developers familiar with it, and being in its early stages, it undergoes rapid changes that can sometimes break existing code.
 
-Yul: A low-level language that is a part of the Solidity compiler. It's mostly used for writing highly efficient code and can be considered as an intermediate language for Ethereum contract execution.
+**Yul:**
+
+ A low-level language that is a part of the Solidity compiler. It's mostly used for writing highly efficient code and can be considered as an intermediate language for Ethereum contract execution.
 
 However, it comes with some disadvantages. Due to its low-level nature, Yul can be more complex and difficult to write and understand than higher-level languages like Solidity or Vyper. It lacks higher-level features and abstractions, making it more challenging to develop complex smart contracts. There are also fewer resources, tools, and community support available for Yul compared to more popular languages like Solidity. It's usually used for writing highly efficient code snippets within Solidity contracts rather than standalone contracts. Overall, while powerful, Yul is typically not the first choice for most smart contract developers due to its complexity and low-level nature.
 
@@ -81,7 +85,23 @@ Solidity provides various ways to make your code more gas-efficient, which is im
 
 Remember, though Solidity has a lot of powerful features, it also has a steep learning curve, especially in understanding how to write secure and efficient smart contracts due to the unique characteristics of blockchain programming.
 
+# what is solidity compiler?
 
+The Solidity compiler is an open-source compiler that translates Solidity code into bytecode that can be executed on the Ethereum Virtual Machine (EVM). It is written in the Go programming language and is used to compile Solidity code into executable bytecode.
+
+There are various ways to compile Solidity code:
+
+**solc command-line compiler:**
+
+ This is the most straightforward way to compile Solidity code. You can install it on your system and use it from the command line.
+
+**Online IDEs:**
+
+ Online integrated development environments like Remix provide a convenient way to write, compile, and deploy smart contracts without having to install anything on your machine.
+
+**Hardhat or Truffle:**
+
+ These development frameworks have built-in Solidity compilers and provide a more streamlined process for compiling and deploying contracts, especially for larger projects.
 
 
 
