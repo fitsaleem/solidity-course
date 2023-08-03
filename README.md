@@ -4,6 +4,8 @@ Solidity is an object-oriented programming language for implementing smart contr
 
 Gavin James Wood is an English computer scientist, a co-founder of Ethereum.
 
+with solidity you can create contracts for uses such as voting, crowdfunding, blind actions, and multi signatures wallets.
+
 # what are the other alternet programing languages to build a smart contracts?
 
 
