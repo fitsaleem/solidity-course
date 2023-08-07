@@ -101,6 +101,12 @@ There are various ways to compile Solidity code:
 
  Online integrated development environments like Remix provide a convenient way to write, compile, and deploy smart contracts without having to install anything on your machine.
 
+ remix ide develop in javaScript
+ its open source
+ used for develop , deploy ,testing, debuging and administor smart contracts
+ thse all are the features of remix ide 
+
+
 **Hardhat or Truffle:**
 
  These development frameworks have built-in Solidity compilers and provide a more streamlined process for compiling and deploying contracts, especially for larger projects.
